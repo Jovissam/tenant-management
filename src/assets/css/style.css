@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #79B4D2;
+  --secondary-color: #522f5f;
+  --bg-color: #BDBDBD;
+  --button-1: #FFD85F;
+
+    --border1: rgba(94, 93, 95, 0.541);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#app {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.all-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main a{
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  background: none;
+  border: none;
+}
+.button-1{
+background-color: var(--button-1);
+}
+.borderr{
+    border: 1px solid var(--border1);
+}
+
+/* ```form */
+.form-el {
+  padding: 10px;
+  border-radius: 30px;
+  /* background: none; */
+  border: none;
+  width: 100%;
+}
+.auth-container form label {
+  width: 70%;
+  display: block;
+}
+.auth-container form {
+  width: 70%;
+}
+form label {
+  font-size: 13px;
+}
