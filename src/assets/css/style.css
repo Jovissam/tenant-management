@@ -45,6 +45,9 @@ background-color: var(--button-1);
   border: none;
   width: 100%;
 }
+.form-check{
+
+}
 .auth-container form label {
   width: 70%;
   display: block;
